@@ -1,0 +1,23 @@
+.header {
+    background: rgb(209, 224, 237);
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 111px;
+}
+
+.inputWrap {
+    max-width: 681px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-right: 13px;
+    height: 41px;
+    background: rgb(255,255,255);
+
+}
+.input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

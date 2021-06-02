@@ -1,0 +1,88 @@
+.formWrap {
+    position: absolute;
+    top: 65px;
+    left: 623px;
+    width: calc(100% - 623px);
+    background: rgb(209, 224, 237);
+    overflow-y: scroll;
+    height: calc(100vh - 65px);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 31px 21px 37px;
+    background: rgb(26, 72, 118);
+    color: #ffffff;
+}
+.close {
+    cursor: pointer;
+}
+.id {
+    font-size: 18px;
+}
+.name {
+    font-size: 16px;
+}
+.main {
+    display: flex;
+}
+.form {
+    padding-top: 28px;
+    padding-left: 38px;
+}
+.title {
+    font-size: 14px;
+    color: rgb(160, 159, 168);
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 7%;
+    display: block;
+}
+.descr {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.input {
+    border: none;
+    background: transparent;
+    margin-bottom: 84px;
+}
+.btnSave {
+    border: none;
+    background: rgb(0,140,240);
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 11px 33px 11px 48px;
+    display: block;
+}
+.col2 {
+    padding-top: 28px;
+    padding-left: 28px;
+    border-left: 2px solid rgb(215, 219, 223);
+}
+.statusName {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.initiatorName, .priorityName, .executorName, .resolutionDatePlan  {
+    margin-bottom: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.tag {
+    border: 1px solid rgb(160, 159, 168);
+    border-radius: 7px;
+    background: #ffffff;
+    margin-right: 5%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(160, 159, 168);
+}

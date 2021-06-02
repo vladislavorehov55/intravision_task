@@ -1,0 +1,25 @@
+.wrapper {
+    background: rgb(0,33,55);
+    height: 100vh;
+    position: absolute;
+    width: 95px;
+    top: 0;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+.logo {
+    margin-left: 26px;
+    margin-bottom: 33px;
+}
+.list {
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 71px;
+}

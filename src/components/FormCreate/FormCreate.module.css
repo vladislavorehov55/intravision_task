@@ -1,0 +1,52 @@
+.form {
+    position: absolute;
+    top: 65px;
+    left: 623px;
+    width: calc(100% - 623px);
+    background: rgb(209, 224, 237);
+    overflow-y: scroll;
+    height: calc(100vh - 65px);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 31px 21px 37px;
+    background: rgb(26, 72, 118);
+    color: #ffffff;
+    font-size: 18px;
+}
+.close {
+    cursor: pointer;
+}
+.main {
+    padding-top: 55px;
+    padding-left: 35px;
+}
+.textareaWrap {
+    max-width: 626px;
+    margin-top: 15px;
+}
+.textarea {
+    width: 100%;
+    resize: none;
+}
+.name {
+    height: 86px;
+}
+.descr {
+    height: 135px;
+}
+.title {
+    margin-top: 22px;
+}
+.btnSave {
+    margin-top: 74px;
+    padding: 11px 37px 11px 43px;
+    font-size: 14px;
+    color: #ffffff;
+    background: rgb(0, 140, 240);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
